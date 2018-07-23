@@ -70,7 +70,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     @available(iOS 10.0, *)
     lazy var persistentContainer: NSPersistentContainer = {
-        let container = NSPersistentContainer(name: "Meal")
+        let container = NSPersistentContainer(name: "FoodTracker")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 fatalError("Unresolved error \(error), \(error.userInfo)")
